@@ -1,0 +1,49 @@
+#######################################
+# Syntax Coloring Map for Engineer EasyEEPROM
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Engineer_EasyEEPROM	KEYWORD1
+AddrMachine	KEYWORD1
+TemplateAddrMachine	KEYWORD1
+TemplateArrAddrMachine	KEYWORD1
+eepromVariable	KEYWORD1
+eepromArrayVariable	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+CompilationDT	KEYWORD2
+setAddrFirst	KEYWORD2
+setAllFactorySettingsAndRestarting	KEYWORD2
+getAddrNext	KEYWORD2
+getCompilationDT	KEYWORD2
+getReadFromMemory	KEYWORD2
+getCount	KEYWORD2
+Save	KEYWORD2
+Load	KEYWORD2
+getAddr	KEYWORD2
+getSizeof	KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD1)
+#######################################
+
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+Count	LITERAL1
+addrNext	LITERAL1
+ReadFromMemory	LITERAL1
+CompilationDateTime	LITERAL1
+addrCompilationDateTime	LITERAL1
+USE_EEPROM_ESP8266_METHOD	LITERAL1
+USE_EEPROM_AVR_METHOD	LITERAL1
