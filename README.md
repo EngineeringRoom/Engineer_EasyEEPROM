@@ -248,11 +248,11 @@ AddrMachine это класс родитель для всех других кл
     // Сброс к заводским настройкам и обратный вызов функции которая перезагрузит ваш Микроконтроллер
     static void     setAllFactorySettingsAndRestarting(void (&ResetMethod_callback)());
 ```cpp
-  void Reseting(){
+  void Restarting(){
     // Какой то ваш способ перезагрузить Микроконтроллер
   }
   // Сброс к заводским настройкам и обратный вызов функции которая перезагрузит ваш Микроконтроллер
-  AddrMachine::setAllFactorySettingsAndRestarting(Reseting); 
+  AddrMachine::setAllFactorySettingsAndRestarting(Restarting); 
 ```
 
 Работа с переменными. происходит через вызов поля 
