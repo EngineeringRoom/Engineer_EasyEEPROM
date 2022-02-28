@@ -32,10 +32,14 @@ eepromArrayVariable<bool, 3> Bool1;        // Будет false по умолча
 const bool cBool[5] = {0,1,0,1,0};
 eepromArrayVariable<bool, 5> Bool2(cBool); // Задаем массив cBool[5] значений по умолчанию
 
-eepromArrayVariable<int, 7> Int1;             // Будет 0 по умолчанию
 
-const int16_t cInt2[3] = {10,20,30};
-eepromArrayVariable<int16_t, 3> Int2(cInt2);     // Задаем массив cInt2[3] по умолчанию
+eepromArrayVariable<int, 7> Int1;                // Будет 0 по умолчанию
+
+eepromArrayVariable<int16_t, 5> Int2((int16_t[]){ 5, 25, 125, 245, 345 });     // Задаем массив по умолчанию
+
+const int16_t cInt3[3] = {10,20,30};             // Мне кажется это лучший способ
+eepromArrayVariable<int16_t, 3> Int3(cInt3);     // Задаем массив cInt3[3] по умолчанию
+
 
 const float cFloat[4] = {10.87, 20.05, 30.11, 40.89};                   
 eepromArrayVariable<float, 4> Float(cFloat);     // Задаем массив cFloat[4] по умолчанию
@@ -66,6 +70,7 @@ void setup() {
   PRINT_INFO_ARRAY(Bool2);
   PRINT_INFO_ARRAY(Int1);
   PRINT_INFO_ARRAY(Int2);
+  PRINT_INFO_ARRAY(Int3);
   PRINT_INFO_ARRAY(Float);
 
   Serial.println();
