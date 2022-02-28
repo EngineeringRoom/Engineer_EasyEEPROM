@@ -27,7 +27,7 @@ EasyEEPROM  - это библиотека для Arduino и ESP8266 для уд�
     - Arduino IDE
     - Arduino IDE v2
     - PlatformIO
-- [Скачать библиотеку](https://github.com/EngineeringRoom/Engineer_EasyEEPROM/releases/tag/v1.0.1) .zip архивом для ручной установки:
+- [Скачать библиотеку](https://github.com/EngineeringRoom/Engineer_EasyEEPROM/releases/tag/v1.0.2) .zip архивом для ручной установки:
     - Распаковать и положить в *C:\Program Files (x86)\Arduino\libraries* (Windows x64)
     - Распаковать и положить в *C:\Program Files\Arduino\libraries* (Windows x32)
     - Распаковать и положить в *Документы/Arduino/libraries/*
