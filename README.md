@@ -1,4 +1,4 @@
-[![Foo](https://img.shields.io/badge/Version-1.0.1-brightgreen.svg?style=flat-square)](#versions)
+[![Foo](https://img.shields.io/badge/Version-1.0.2-brightgreen.svg?style=flat-square)](#versions)
 
 # Engineer_EasyEEPROM
 EasyEEPROM  - это библиотека для Arduino и ESP8266 для удобной работы с EEPROM.
