@@ -287,7 +287,7 @@ eepromArrayVariable<float, 4> Float(cFloat);     // Задаем массив cF
 
 <a id="versions"></a>
 ## Версии
-- v1.0.1
+- v1.0.2
 
 <a id="feedback"></a>
 ## Баги и обратная связь
